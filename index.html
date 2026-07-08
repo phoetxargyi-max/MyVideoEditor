@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Video Editor</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <h2>🎬 My Video Editor</h2>
+</header>
+
+<main>
+
+    <section class="preview">
+        <video id="videoPlayer" controls></video>
+    </section>
+
+    <section class="import">
+        <input type="file" id="videoInput" accept="video/*">
+    </section>
+
+    <section class="timeline">
+        <h3>Timeline</h3>
+        <div id="timelineBox">
+            No Video Selected
+        </div>
+    </section>
+
+</main>
+
+<footer class="toolbar">
+
+<button>✂️ Trim</button>
+<button>➗ Split</button>
+<button>📝 Text</button>
+<button>🎵 Audio</button>
+<button>😊 Sticker</button>
+<button>🎨 Filter</button>
+<button>📤 Export</button>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
